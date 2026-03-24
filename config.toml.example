@@ -1,0 +1,32 @@
+# Пример конфигурационного файла для Evolife
+[evolife]
+
+# Основные параметры
+width = 120
+height = 60
+seed = null  # null для случайного seed
+fps = 30
+
+# Правила и генетика
+default_rule = "B3/S23"
+mutation_rate_multiplier = 1.0
+max_mutations_per_birth = 2
+species_hamming_threshold = 2
+age_max_default = 64
+catastrophe_probability = 0.0
+
+# Инициализация
+init_density = 0.15
+
+# Отображение
+color_enabled = false
+empty_dot = false
+
+# Файлы
+record_file = null
+load_file = null
+save_interval = 500
+
+# Дополнительные параметры
+glyph_count = 14
+mutation_enabled = true
