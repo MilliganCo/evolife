@@ -1,5 +1,7 @@
 # Evolife - Эволюционная симуляция "Игра Жизнь"
 
+> Public source preview: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known failures and runtime limits.
+
 Эволюционная симуляция клеточного автомата "Игра Жизнь" с генетической системой, мутациями и наследованием правил поведения. Клетки могут эволюционировать, развивать новые стратегии выживания и передавать их потомкам.
 
 ## Особенности
@@ -112,7 +114,7 @@ python main.py --species-hamming-threshold 0 --mutation-rate 0.005
 При рождении новой клетки:
 
 1. **Выбор родителей**: Турнирный отбор среди живых соседей
-2. **Кроссовер**: 
+2. **Кроссовер**:
    - Маски: однородный кроссовер 50/50
    - Скалярные гены: случайный выбор родителя
 3. **Мутации**: Применяются с вероятностью `mutation_rate`
@@ -246,3 +248,8 @@ Tick:    1234 | Alive:    567 | Species:  12 | FPS: 30 | Top: S1(45), S2(32), S3
 - GitHub Issues: [https://github.com/evolife/evolife/issues](https://github.com/evolife/evolife/issues)
 - Документация: [https://evolife.readthedocs.io](https://evolife.readthedocs.io)
 - Обсуждения: [https://github.com/evolife/evolife/discussions](https://github.com/evolife/evolife/discussions)
+
+
+## Public source status — 2026-10-29
+
+See [PUBLICATION.md](PUBLICATION.md) for the current verification scope, prototype limitations and runtime boundaries. Earlier audit checklists describe historical work.
